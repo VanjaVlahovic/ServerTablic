@@ -1,0 +1,90 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </head>
+<body>
+<div class="container">
+    <div class="split left">
+    <div class="row" id="talon">
+        
+        <input type="checkbox"  id="card1" name="tabla" value = "0"> 
+        <label for="card1"><img id="img1" src="../assets/PNG/back.jpg" alt=""></label>       
+      
+        <input type="checkbox"  id="card2" name="tabla" value ="0" >
+        <label for="card2"><img id="img2" src="../assets/PNG/back.jpg" alt=""></label>   
+      
+        <input type="checkbox"  id="card11" name="tabla" value ="0" >
+        <label for="card11"><img id="img11" src="" alt=""></label>   
+       
+        <input type="checkbox"  id="card12" name="tabla" value ="0" >
+        <label for="card12"><img  id="img12" src="" alt=""></label>   
+        
+      
+      
+      <!-- Force next columns to break to new line at md breakpoint and up -->
+      <div class="w-100"></div>
+
+      
+        <input type="checkbox"  id="card3" name="tabla" value ="0" >
+        <label for="card3"><img id="img3" src="../assets/PNG/back.jpg" alt=""></label>   
+     
+        <input type="checkbox"  id="card4" name="tabla" value ="0" >
+        <label for="card4"><img id="img4" src="../assets/PNG/back.jpg" alt=""></label>   
+       
+        <input type="checkbox"  id="card13" name="tabla" value ="0" >
+        <label for="card13"><img id="img13" src="" alt=""></label>   
+      
+        <input type="checkbox"  id="card14" name="tabla" value ="0" >
+        <label for="card14"><img id="img14" src="" alt=""></label>   
+      
+    
+  </div>
+
+    <div class="row">
+       
+          <input type="radio" id="card5" name="moj"  value = "0">
+        <label for="card5"><img id="img5" src="../assets/PNG/back.jpg" alt=""></label>   
+        
+          <input type="radio" id="card6" name="moj"  value = "0">
+        <label for="card6"><img id="img6" src="../assets/PNG/back.jpg" alt=""></label>  
+       
+          <input type="radio" id="card7" name="moj"  value = "0">
+        <label for="card7"><img id="img7" src="../assets/PNG/back.jpg" alt=""></label>  
+        
+          <input type="radio" id="card8" name="moj"  value = "0">
+        <label for="card8"><img id="img8" src="../assets/PNG/back.jpg" alt=""></label>  
+          
+            <input type="radio" id="card9" name="moj"  value = "0">
+        <label for="card9"><img id="img9" src="../assets/PNG/back.jpg" alt=""></label>  
+         
+            <input type="radio" id="card10" name="moj"  value = "0">
+        <label for="card10"><img id="img10" src="../assets/PNG/back.jpg" alt=""></label>  
+          
+      </div>
+</div>
+<div class="split right">      
+      <h1>Tablić</h1>
+      <img id="KoIgraS" src="../assets/PNG/justWait.png" alt="">
+<div class="form-group">
+    <h2 >Broj štihova i tabli:</h2>
+    <h2 id="place"></h2>
+    <h2 id="rezultat"></h2>
+  </div>
+<button id='Igraj' (click)="ProveriIPosaljiOdgovor()"  hidden='true'>Igraj</button>
+</div>
+</div>
+
+</body>
